@@ -7,10 +7,4 @@
 /build
 /captures
 .externalNativeBuild
-*.java linguist-language=android
-*.class linguist-language=android
-*.js linguist-language=android
-*.css linguist-language=android
-*.html linguist-language=android
-*.png linguist-language=android
-*.jpg linguist-language=android
+
