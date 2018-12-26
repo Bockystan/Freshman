@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="125sp"
+        android:gravity="right|bottom"
+        android:hint="0"
+        android:textSize="60dip"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp"
+
+
+        android:paddingTop="15sp">
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/percent"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="+/-"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/division"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp">
+
+        <Button
+            android:id="@+id/button07"
+            android:layout_width="98sp"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button08"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button09"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <!--第三行-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp">
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button05"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button06"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <!--第四行-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp">
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <!--第五行-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp" />
+        <Button
+            android:id="@+id/sqrt"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="√"
+            android:textSize="50sp" />
+
+
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="98sp"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="50sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
